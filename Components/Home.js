@@ -67,7 +67,7 @@ export class Home extends Component {
              /> 
              <Text>
              result=> 
-                {this.state.result}
+                {this.state.result+1}
              </Text>
             </View>
         )
