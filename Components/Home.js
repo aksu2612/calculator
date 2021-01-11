@@ -69,10 +69,7 @@ export class Home extends Component {
                 title="Calculate"
                 onPress={()=>this.calculate()}
              /> 
-             <Text>
-             result = > 
-                {this.state.result}
-             </Text>
+             <Text> result = >    {this.state.result}  </Text>
             </View>
         )
     }
