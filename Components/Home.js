@@ -69,7 +69,7 @@ export class Home extends Component {
                 title="Calculate"
                 onPress={()=>this.calculate()}
              /> 
-             <Text>   result=>    xbrunch   {this.state.result}
+             <Text>   result=>    xbrunch   {this.state.result +1}
              </Text>
             </View>
         )
