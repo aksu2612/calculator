@@ -65,17 +65,7 @@ export class Home extends Component {
                 title="Calculate"
                 onPress={()=>this.calculate()}
              /> 
-<<<<<<< HEAD
-             <Text>
-             result=> 
-                {this.state.result+1}
-=======
-                  <Button 
-                title="Calculate"
-                onPress={()=>this.calculate()}
-             /> 
-             <Text>   result=>    xbrunch   {this.state.result +1}
->>>>>>> Xbrunch
+             <Text>    result=>     {this.state.result+1}
              </Text>
             </View>
         )
