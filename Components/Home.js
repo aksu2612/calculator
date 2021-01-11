@@ -31,7 +31,7 @@ export class Home extends Component {
         this.setState({
             number2:e
         })
-    }
+    } 
     render() {
         return (
             <View>
